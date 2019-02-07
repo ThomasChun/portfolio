@@ -1,14 +1,205 @@
+* {
+  background-color: rgb(241, 241, 241);
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Titillium Web",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  max-width: 1000px;
+  margin: auto;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.header {
+  background-image: url(./banner-artic.jpg);
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position:center;
+  width: 100%;
+  height: 358px;
+  opacity: 0.75;
+}
+
+.about-me-container {
+  background-color: white;
+  margin: 50px 0px;
+  border-radius: 10px;
+}
+
+.about-me-content {
+  margin: 0px 25px;
+  padding: 25px;
+  background-color: white;
+}
+
+.about-me-container h2, .about-me-container p {
+  background-color: white;
+}
+
+.basic-info {
+  text-align: center;
+  background-color: white;
+}
+
+.basic-info h2 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  background-color: white;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 52px;
+}
+
+.basic-info p {
+  margin-top: 0px;
+}
+.about {
+  background-color: white;
+}
+
+.doc-links {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  /* align-items: flex-end; */
+}
+
+.doc-links img, .project-links img {
+  background-color: white;
+  padding-top: 13px;
+  height: 26px;
+  width: 24px;
+}
+
+.footer img {
+  padding-top: 7px;
+  height: 26px;
+  width: 24px;
+}
+
+.email, .resume, .linkedin, .github {
+  /* flex: 1; */
+  text-align: center;
+  padding: 15px 15px 15px 3px;
+  background-color: white;
+}
+
+.friend-zone-img, .spaced-latency-img, .restaurant-app-img {
+  max-width: 700px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+.the-friend-zone, .spaced-latency, .the-restaurant-app {
+  background-color: white;
+  margin: 50px 0px;
+  border-radius: 10px;
+}
+
+.the-friend-zone-content, .spaced-latency-content, .the-restaurant-app-content {
+  margin: 0px 25px;
+  padding: 25px;
+  background-color: white;
+}
+
+.projects h3, .projects h4 {
+  text-align: center;
+  background-color: white;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.projects h3 {
+  font-size: 36px;
+  margin: 20px 0px;
+}
+
+.projects h4 {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.basic-info h3 {
+  text-align: center;
+  background-color: white;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 24px;
+  margin: 0px 0px 10px 0px;
+}
+
+.projects p {
+  background-color: white;
+}
+
+hr {
+  margin: 45px 0px;
+}
+
+.footer {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-email, .footer-resume, .footer-linkedin, .footer-github {
+  /* flex: 1; */
+  text-align: center;
+  padding: 9px 15px 15px 2px;
+}
+
+.rhombus-img {
+  height: 11px;
+  width: auto;
+  background-color: white;
+  padding: 0px 8px;
+}
+
+.tech-stack {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: rgb(2, 170, 2);
+}
+
+.project-links, .project-links img, .project-links a {
+  background-color: white;
+}
+
+.project-links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.project-links img {
+  padding: 0px 3px 0px 25px;
+}
+
+.project-links a {
+  padding-top: 2px;
 }
