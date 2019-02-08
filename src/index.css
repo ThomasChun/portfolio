@@ -36,7 +36,7 @@ code {
 }
 
 .about-me-content {
-  margin: 0px 25px;
+  margin: 0px 75px;
   padding: 25px;
   background-color: white;
 }
@@ -108,7 +108,7 @@ code {
 }
 
 .the-friend-zone-content, .spaced-latency-content, .the-restaurant-app-content {
-  margin: 0px 25px;
+  margin: 0px 75px;
   padding: 25px;
   background-color: white;
 }
@@ -202,4 +202,50 @@ a:hover {
 
 .project-links a {
   padding-top: 2px;
+}
+
+#topBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  border: none; 
+  outline: none;
+  background-color: white;
+  cursor: pointer;
+  padding: 5px 10px 01px 10px;
+  border-radius: 10px;
+}
+
+.up-arrow {
+  height: 25px;
+  width: auto;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 500px) {
+  .project-links, .footer-links, .doc-links {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .project-links {
+    text-align: center;
+  }
+
+  .doc-links a, .project-links img, .email, .resume, .linkedin, .github, .footer-email, .footer-resume, .footer-linkedin, .footer-github, .project-links a {
+    padding: 0;
+  }
+
+  .doc-links img, .footer-links img, .project-links img {
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  .about-me-content, .the-friend-zone-content, .spaced-latency-content, .the-restaurant-app-content {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 }
