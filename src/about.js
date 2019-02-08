@@ -34,10 +34,10 @@ class About extends Component {
               I'm dedicated to continuously building upon my existing knowledge and skills.
         </p>
             <p>
-              Outside of writing code, I enjoy spending my free time with friends and family. I was born and raised in Honolulu, Hawaii and enjoy eating fresh seafood and watching amazing sunsets
-              on the beach. I'm also a passionate sports fan and have fully immersed myself in the sports collectibles hobby. My sports collectibles hobby was one of the driving factors that first
-              got me into web development as I taught myself basic coding in order to create a website to display my collection of autographs and memorabilia. As a result of that first website, web
-              development quickly turned into a hobby that I have now decided to pursue full time as a career.
+              Outside of writing code, I enjoy spending my free time with friends and family. I was born and raised in Honolulu, Hawaii and enjoy eating fresh seafood and watching sunsets
+              on the beach. I'm a passionate sports fan and have fully immersed myself in the sports collectibles hobby. My sports collectibles hobby was one of the driving factors that first
+              got me into web development. I taught myself basic coding in order to create a website to display my collection of autographs and memorabilia. As a result of that first website, web
+              development quickly turned into an interest that I have decided to pursue full time as a career.
         </p>
           </div>
         </div>
