@@ -46,13 +46,13 @@ code {
   font-size: 28px;
 }
 
-.about-me-container {
+.about-me-container, .resume-container {
   background-color: white;
   margin: 25px 0px;
   border-radius: 5px;
 }
 
-.about-me-content {
+.about-me-content, .resume-content {
   margin: 0px 75px;
   padding: 25px;
   background-color: white;
@@ -248,6 +248,54 @@ a:hover {
   height: 25px;
   width: auto;
   background-color: transparent;
+}
+
+/*                     */
+/* resume styling here */
+/*                     */
+
+.resume-content div, .name-contact-info span {
+  background-color: white;
+  text-align: center;
+}
+
+.resume-header-name {
+  font-size: 28px;
+}
+
+.resume-content p {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.resume-content h2 {
+  color: rgb(24, 99, 240);
+  background-color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+.name-contact-info {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.resume-content p, .resume-content section, .resume-content b {
+  background-color: white;
+}
+
+.resume-links-container {
+  max-width: 225px;
+  margin: auto;
+}
+
+.resume-links {
+  display: flex;
+  justify-content: center;
+}
+
+.resume-portfolio, .resume-github, .resume-linkedin {
+  flex: 1;
 }
 
 @media screen and (max-width: 500px) {
