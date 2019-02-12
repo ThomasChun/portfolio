@@ -29,10 +29,27 @@ code {
   opacity: 0.75;
 }
 
+.full-name {
+  text-align: center;
+  padding-top: 200px;
+  background-color: transparent;
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 62px;
+}
+
+.headline {
+  text-align: center;
+  background-color: transparent;
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 28px;
+}
+
 .about-me-container {
   background-color: white;
-  margin: 50px 0px;
-  border-radius: 10px;
+  margin: 25px 0px;
+  border-radius: 5px;
 }
 
 .about-me-content {
@@ -43,6 +60,8 @@ code {
 
 .about-me-container h2, .about-me-container p {
   background-color: white;
+  font-size: 16px;
+  line-height: 23px;
 }
 
 .basic-info {
@@ -103,14 +122,19 @@ code {
 
 .the-friend-zone, .spaced-latency, .the-restaurant-app {
   background-color: white;
-  margin: 50px 0px;
-  border-radius: 10px;
+  margin: 25px 0px;
+  border-radius: 5px;
 }
 
 .the-friend-zone-content, .spaced-latency-content, .the-restaurant-app-content {
   margin: 0px 75px;
   padding: 25px;
   background-color: white;
+}
+
+.project-headline {
+  background-color: white;
+  text-align: center;
 }
 
 .projects h3, .projects h4 {
@@ -139,10 +163,12 @@ code {
 
 .projects p {
   background-color: white;
+  font-size: 16px;
+  line-height: 23px;
 }
 
 hr {
-  margin: 45px 0px;
+  margin: 25px 0px;
 }
 
 .footer {

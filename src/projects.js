@@ -7,10 +7,17 @@ class Projects extends Component {
         <section className="the-friend-zone">
           <div className="the-friend-zone-content">
             <h3>The Friend Zone</h3>
+            <div className="project-headline">Meet friends online, join our free online community focused on platonic friendships!</div>
+            <h4>Project Links</h4>
+            <div className="project-links">
+              <img src="icons8-github-48.png" alt="GitHub" /><a href="https://github.com/the-friendzone-app/client" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+              <img src="icons8-web-48.png" alt="website link"/><a href="https://the-friend-zone-app.herokuapp.com/" target="_blank" rel="noopener noreferrer">The Friend Zone</a>
+            </div>
+            <a href="https://the-friend-zone-app.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src="the-friend-zone.png" className="friend-zone-img" alt="friend zone" /></a>
             <p>The Friend Zone is an online community for people who are seeking platonic friendships
               and want to connect with others through a comfortable and relaxed online community. The Friend Zone
               offers suggested friendships based on personality types allowing users to chat live. Personality
-              polls are availble for users to complete and gain insight into how to become better friends. Additional
+              polls are available for users to complete and gain insight into how to become better friends. Additional
               features include local meetups and community forums where users can discuss topics of interests or plan
               in person events.
             </p>
@@ -41,22 +48,23 @@ class Projects extends Component {
               <img src="icons8-rhombus-48.png" className="rhombus-img" alt="Rhombus" />Chai
               <img src="icons8-rhombus-48.png" className="rhombus-img" alt="Rhombus" />Mocha
             </p>
-            <h4>Project Links</h4>
-            <div className="project-links">
-              <img src="icons8-github-48.png" alt="GitHub" /><a href="https://github.com/the-friendzone-app/client" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
-              <img src="icons8-web-48.png" alt="website link"/><a href="https://the-friend-zone-app.herokuapp.com/" target="_blank" rel="noopener noreferrer">The Friend Zone</a>
-            </div>
-            <img src="the-friend-zone.png" className="friend-zone-img" alt="friend zone" />
           </div>
         </section>
 
         <section className="spaced-latency">
           <div className="spaced-latency-content">
             <h3>Latency Numbers: Spaced Repetition</h3>
+            <div className="project-headline">Learn latency numbers every programmer should know using a spaced-repetition algorithm!</div>
+            <h4>Project Links</h4>
+            <div className="project-links">
+              <img src="icons8-github-48.png" alt="GitHub" /><a href="https://github.com/thinkful-ei25/spaced-repetition-arun-thomas" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+              <img src="icons8-web-48.png" alt="website link"/><a href="https://spaced-latency.herokuapp.com/" target="_blank" rel="noopener noreferrer">Spaced Latency</a>
+            </div>
+            <a href="https://spaced-latency.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src="spaced-latency.png" className="spaced-latency-img" alt="Spaced Latency" /></a>
             <p>
               Learn the latency numbers every programmer should know using a spaced-repetition algorithm. See the
               questions that you get wrong more frequently allowing users to practice the content they are having
-              difficulty commiting to memory. The Spaced Latency App also features graphs and charts for users to
+              difficulty committing to memory. The Spaced Latency App also features graphs and charts for users to
               track their lifetime and per session data for right and wrong answers. This feedback allows users to
               pinpoint the questions they need to spend more time and and track progress across sessions.
             </p>
@@ -75,18 +83,20 @@ class Projects extends Component {
               <img src="icons8-rhombus-48.png" className="rhombus-img" alt="Rhombus" />Express
               <img src="icons8-rhombus-48.png" className="rhombus-img" alt="Rhombus" />Passport + JSON Web Tokens
             </p>
-            <h4>Project Links</h4>
-            <div className="project-links">
-              <img src="icons8-github-48.png" alt="GitHub" /><a href="https://github.com/thinkful-ei25/spaced-repetition-arun-thomas" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
-              <img src="icons8-web-48.png" alt="website link"/><a href="https://spaced-latency.herokuapp.com/" target="_blank" rel="noopener noreferrer">Spaced Latency</a>
-            </div>
-            <img src="spaced-latency.png" className="spaced-latency-img" alt="Spaced Latency" />
+            
           </div>
         </section>
 
         <section className="the-restaurant-app">
           <div className="the-restaurant-app-content">
             <h3>The Restaurant App</h3>
+            <div className="project-headline">Can't decide where to eat? Use the built in randomize feature to select a restaurant from your list!</div>
+            <h4>Project Links</h4>
+            <div className="project-links">
+            <img src="icons8-github-48.png" alt="GitHub" /><a href="https://github.com/ThomasChun/restaurant-app-client" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+            <img src="icons8-web-48.png" alt="website link"/><a href="https://thomas-restaurant-app-client.herokuapp.com/" target="_blank" rel="noopener noreferrer">The Restaurant App</a>
+            </div>
+            <a href="https://thomas-restaurant-app-client.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src="restaurant-app.png" className="restaurant-app-img" alt="The Restaurant App" /></a>
             <p>
               Ever have trouble deciding where to eat? The restaurant app makes deciding where to eat easy and exciting.
               The Restaurant App allows users to create collections with restaurants that can be randomized at a click
@@ -115,12 +125,7 @@ class Projects extends Component {
               <img src="icons8-rhombus-48.png" className="rhombus-img" alt="Rhombus" />Chai
               <img src="icons8-rhombus-48.png" className="rhombus-img" alt="Rhombus" />Mocha
             </p>
-            <h4>Project Links</h4>
-            <div className="project-links">
-            <img src="icons8-github-48.png" alt="GitHub" /><a href="https://github.com/ThomasChun/restaurant-app-client" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
-            <img src="icons8-web-48.png" alt="website link"/><a href="https://thomas-restaurant-app-client.herokuapp.com/" target="_blank" rel="noopener noreferrer">The Restaurant App</a>
-            </div>
-            <img src="restaurant-app.png" className="restaurant-app-img" alt="The Restaurant App" />
+            
           </div>
         </section>
       </div>
