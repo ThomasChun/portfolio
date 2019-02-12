@@ -24,15 +24,15 @@ class About extends Component {
               professionally and as an individual.
         </p>
             <p>
-              I've always held an interest in building websites and applications since I completed my first intro to CS course in college. I decided to pursue a career change and learn how to
+              I decided to pursue a career change and learn how to
               turn my ideas for websites and apps into a reality by completing Thinkful's Engineering Immersion Program. I enjoy the challenge associated with coding an app or feature from the
               ground up while researching and learning new skills throughout the development process. In this profession, there are always new languages, frameworks, and libraries to learn and
               I'm dedicated to continuously building upon my existing knowledge and skills. Thinkful provided me with the opportunity to experience paired programming daily in addition to developing
               a full-stack capstone project in collaboration with three members of my cohort. I enjoy working on a team where members are goal driven and striving to deliver the best possible product.
           </p>
             <p>
-              Outside of writing code, I enjoy spending my free time with friends and family. I was born and raised in Honolulu, Hawaii and enjoy eating fresh seafood and watching sunsets
-              on the beach. I'm a passionate sports fan and have fully immersed myself in the sports collectibles hobby. My sports collectibles hobby was one of the driving factors that first
+              Outside of writing code, I enjoy spending my free time with friends and family. I was born and raised in Honolulu, Hawaii and enjoy eating fresh seafood and attending professional sporting 
+              events. I'm a passionate sports fan and have fully immersed myself in the sports collectibles hobby. My sports collectibles hobby was one of the driving factors that first
               got me into web development. I taught myself basic coding in order to create a website to display my collection of autographs and memorabilia. As a result of that first website, web
               development quickly turned into an interest that I have decided to pursue full time as a career.
         </p>
