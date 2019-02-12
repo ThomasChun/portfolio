@@ -8,7 +8,7 @@ class About extends Component {
         <div className="about-me-content">
           <div className="doc-links">
             <img src="icons8-resume-30.png" alt="Resume" />
-            <div className="resume"><Link className="resume" to="/resume" target="_blank" rel="noopener noreferrer">Resume</Link></div>
+            <div className="resume"><Link className="resume" to="https://www.thomas-chun.com/resume" target="_blank" rel="noopener noreferrer">Resume</Link></div>
             <img src="icons8-linkedin-48.png" alt="LinkedIn" />
             <div className="linkedin"><a className="linkedin" href="https://www.linkedin.com/in/thomas-chun-99385a95/" target="_blank" rel="noopener noreferrer">LinkedIn</a></div>
             <img src="icons8-github-48.png" alt="GitHub" />
